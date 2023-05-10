@@ -6,7 +6,7 @@ import logo from './../../../assets/logo.png'
 
 const NavigationBar = () => {
     return (
-        <div className=' sticky top-0 bg-black bg-opacity-10 backdrop-blur-lg w-screen flex justify-around overflow-x-hidden ' >
+        <div className=' sticky top-0 bg-blue-900 bg-opacity-10 backdrop-blur-md w-screen flex justify-around overflow-x-hidden ' >
             <div className='body-size flex justify-between items-center '>
                 <div className='flex items-center' >
                     <Image width={60} src={logo} alt='logo' />
