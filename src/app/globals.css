@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page-root {
+  @apply flex min-h-screen flex-col items-center ;
+}
+
+.nav-link {
+  @apply mx-2 hover:underline hover:text-blue-800 transition-all duration-200 ease-in-out;
+}
+
+.body-size {
+  @apply py-1 max-w-[1200px] w-full ;
+}
+
+
+
+/* for hiding scrool bar  */
+::-webkit-scrollbar{
+  width: 0px;
+}
+::-webkit-scrollbar-track {
+  background: white;
+}
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 10px;
+  opacity: 0.9;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #555; 
+}
+
+
+/* root design css - by default  */
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
