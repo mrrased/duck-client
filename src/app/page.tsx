@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <main className="page-root  ">
       <NavigationBar/>
-      <div className='body-size ' >
+      <div className='body-size' >
 
         <HomeSection
             title='Complex made simple'
