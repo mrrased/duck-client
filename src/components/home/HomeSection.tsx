@@ -25,7 +25,6 @@ const HomeSection = ({ title, subHead, textBody, imgUrl, imgSide }:HomeSectionTy
                         alt="body section picture"
                     />
                 </div>
-
             </div>
         </div>
     );
