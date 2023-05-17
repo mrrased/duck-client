@@ -7,6 +7,7 @@ import security from './../../assets/security1.jpg';
 import erp from './../../assets/erp.png';
 import support from './../../assets/support1.jpg';
 import api from './../../assets/api.jpg';
+import cms from './../../assets/cms1.jpg';
 
 const index = () => {
     return (
@@ -24,7 +25,7 @@ const index = () => {
                     bt='Getting Started'
                 />
 
-                <div className='my-10' ></div>
+                <div className='my-20' ></div>
                 <ProductSection
                     title='APi Automation'
                     subHSide='b'
@@ -35,15 +36,19 @@ const index = () => {
                     imgSide='l'
                 />
 
-                <div className='my-10' ></div>
+                <div className='my-40' ></div>
                 <ProductSection
-                    title='Complex made simple'
-                    subHSide='b'
+                    title='Content Management CMS & Blogging'
+                    sTitle='Fully customizable Templates'
+                    subHSide='n'
                     subHead='Grow Your Business with our PRO-efficient Products'
-                    textBody={['Using our resourceful and intelligent management tools you can automate your complex workflow and save time to invest in taking your business to a whole new level.']}
-                    imgUrl={erp}
+                    textBody={['We Offer an in-built Style editor which manages the front-end and it is easy to use even for a non-technical person. With CMS you can always keep your clients updated with the latest know-how of your services. You can also Enable/Disable visitors to leave comments on your blog posts.']}
+                    sTextBody={['Manage your international clientele with Dhru Fusion’s easy to use multi currency and language setup in just a few clicks.']}
+                    imgUrl={cms}
                     imgSide='r'
                 />
+
+                <div className='my-40' ></div>
                 <ProductSection
                     title='Ingenius Utilities'
                     subHSide='b'
@@ -53,6 +58,8 @@ const index = () => {
                     imgUrl={erp}
                     imgSide='l'
                 />
+
+                <div className='my-40' ></div>
                 <ProductSection
                     title='Supporting your client'
                     sTitle='Multiple Currency and Language'
@@ -63,6 +70,8 @@ const index = () => {
                     imgUrl={support}
                     imgSide='r'
                 />
+
+                <div className='my-40' ></div>
                 <ProductSection
                     title='Security First'
                     subHSide='b'

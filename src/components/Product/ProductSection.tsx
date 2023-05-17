@@ -5,7 +5,7 @@ interface HomeSectionTy {
     title: string,
     sTitle?: string,
     sTextBody?: string[],
-    subHSide: 't' | 'b',
+    subHSide: 't' | 'b' | 'n',
     subHead?: string,
     textBody: string[],
     textList?: string[],
@@ -23,9 +23,9 @@ const ProductSection = ({ title, subHead, textBody, imgUrl, imgSide, subHSide, t
                     <h1 className='text-3xl font-bold mb-3 ' >{title}</h1>
                     <h4 className={`text-xl font-semibold mb-3 ${subHead ? subHSide === 'b' ? 'block' : 'hidden' : ''}`} >{subHead}</h4>
                     {textBody.length ? textBody.map((each, i) => (<p key={i} className=' text-justify' >{each}</p>)) : null}
-                    {textList ? textList.map((list, i) => <li key={i}>{list}</li>) : null}
+                    {textList ? textList.map((list, i) => <li key={i} className='my-2'>{list}</li>) : null}
                     <button className={`${bt ? 'px-6 py-2.5 mt-3 bg-[#00c5f2] text-white rounded-full hover:rounded-none transition duration-700' : "hidden"}`}>{bt}</button>
-                    <h1 className='text-3xl font-bold mb-3 mt-5'>{sTitle}</h1>
+                    <h1 className='text-lg font-bold mb-3 mt-5'>{sTitle}</h1>
                     <p className={`text-justify ${sTextBody ? 'block' : 'hidden'}`} >{sTextBody}</p>
                 </div>
                 <div className='w-1/2 flex justify-around items-center' >
