@@ -25,7 +25,7 @@ const NavigationBar = () => {
                     <Link href={'/services'} >
                         <span className='nav-link' >Services</span>
                     </Link>
-                    <Link href={'/contact-us'} >
+                    <Link href={'/contact'} >
                         <span className='nav-link' >Contact Us</span>
                     </Link>
                     <Link href={'/login'} >

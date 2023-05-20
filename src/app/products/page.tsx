@@ -8,6 +8,7 @@ import erp from './../../assets/erp.png';
 import support from './../../assets/support1.jpg';
 import api from './../../assets/api.jpg';
 import cms from './../../assets/cms1.jpg';
+import icon from './../../assets/check-mark.png';
 
 const index = () => {
     return (
@@ -32,6 +33,7 @@ const index = () => {
                     subHead='for fast Order Processing'
                     textBody={['Dhru Fusion is an all-in-one client & supplier management, Billing, Shopping cart, Blog,Support solution for online businesses. It is an ultimate solution for Your Suppliers API Connection, so you are in control with a very powerful business automation tool. Easy to Use - Simple & Intuitive Interface, Fast Loading, Quick Setup & Efficient Support .']}
                     textList={['Send orders directly to your supplier and return code', 'Supports over 50+ supplier worldwide', 'You can provide APi for your own site to clients', 'We provide full APi documentation with examples']}
+                    icon={icon}
                     imgUrl={api}
                     imgSide='l'
                 />
@@ -55,6 +57,7 @@ const index = () => {
                     subHead=''
                     textBody={['Keeping in mind the increasing Service Standards.and many more utilities so you do not have to rely on any other resources. . we provide in-built features like']}
                     textList={['Mass mail', 'SMS', 'News letter', 'System Cleanup', 'Database Backup', 'IP Manager', 'SEO Functions', 'Import Script']}
+                    icon={icon}
                     imgUrl={erp}
                     imgSide='l'
                 />
@@ -82,6 +85,7 @@ const index = () => {
                         'We provide Client side fraud protection that analyses client profiles based on their KYC, Fraud Cage check and binds them to a particular payment gateway forcing them to pay securely without any fraudulent activity.',
                         'You can define staff access and control what aspects of the management panel is accessed by them, which allows YOU to always be in control of your business.'
                     ]}
+                    icon={icon}
                     imgUrl={security}
                     imgSide='l'
                 />
