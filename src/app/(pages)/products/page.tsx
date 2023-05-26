@@ -1,18 +1,14 @@
 import React from 'react';
-import NavigationBar from '@/components/shared/navigationBar/NavigationBar';
 import ProductSection from '@/components/Product/ProductSection';
-import bird from './../../assets/logo.png';
-import building from './../../assets/building.png';
-import security from './../../assets/security1.jpg';
-import erp from './../../assets/erp.png';
-import support from './../../assets/support1.jpg';
-import api from './../../assets/api.jpg';
+import bird from './../../../assets/logo.png';
+import security from './../../../assets/security1.jpg';
+import erp from './../../../assets/erp.png';
+import support from './../../../assets/support1.jpg';
+import api from './../../../assets/api.jpg';
 
 const index = () => {
     return (
         <div className="page-root" >
-            <NavigationBar />
-            <p>Product</p>
             <div className='body-size'>
                 <ProductSection
                     title='Our very own inception for order automation'
