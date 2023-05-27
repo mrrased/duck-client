@@ -2,7 +2,6 @@ import React from 'react';
 import NavigationBar from '@/components/shared/navigationBar/NavigationBar';
 import ProductSection from '@/components/Product/ProductSection';
 import bird from './../../assets/logo.png';
-import building from './../../assets/building.png';
 import security from './../../assets/security1.jpg';
 import erp from './../../assets/erp.png';
 import support from './../../assets/support1.jpg';
