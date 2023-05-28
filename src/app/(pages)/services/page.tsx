@@ -1,3 +1,4 @@
+import ServiceSection from '@/components/Service/ServiceSection';
 import { Metadata } from 'next';
 import React from 'react';
 
@@ -10,6 +11,7 @@ const Services = () => {
     return (
         <div className=' ' >
             <p>Services</p>
+            <ServiceSection />
         </div>
     );
 };
