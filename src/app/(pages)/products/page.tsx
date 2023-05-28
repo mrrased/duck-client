@@ -1,6 +1,6 @@
 import React from 'react';
-import NavigationBar from '@/components/shared/navigationBar/NavigationBar';
 import ProductSection from '@/components/Product/ProductSection';
+<<<<<<< HEAD:src/app/products/page.tsx
 import bird from './../../assets/logo.png';
 import security from './../../assets/security1.jpg';
 import erp from './../../assets/erp.png';
@@ -8,12 +8,17 @@ import support from './../../assets/support1.jpg';
 import api from './../../assets/api.jpg';
 import cms from './../../assets/cms1.jpg';
 import icon from './../../assets/check-mark.png';
+=======
+import bird from './../../../assets/logo.png';
+import security from './../../../assets/security1.jpg';
+import erp from './../../../assets/erp.png';
+import support from './../../../assets/support1.jpg';
+import api from './../../../assets/api.jpg';
+>>>>>>> 6998b6f0616c6e3e1dd51b31471dc0be61b47d40:src/app/(pages)/products/page.tsx
 
 const index = () => {
     return (
         <div className="page-root" >
-            <NavigationBar />
-            <p>Product</p>
             <div className='body-size'>
                 <ProductSection
                     title='Our very own inception for order automation'
